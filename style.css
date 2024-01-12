@@ -109,6 +109,7 @@ header{
     gap: 2rem;
 }
 
+/* Top part of header */
 header .content h4{
     margin-bottom: 1rem;
     color: #ccc;
@@ -117,6 +118,7 @@ header .content h4{
 
 }
 
+/* Main BOLD part of header */
 header .content h1{
     color: #fff;
     margin-bottom: 1rem;
@@ -125,7 +127,108 @@ header .content h1{
     line-height: 4rem;
 }
 
+/* Name graphic */
 header .content h1 span{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #0cdfd8;
 }
+
+header .content p {
+    margin-bottom: 2rem;
+    color: #ccc;
+}
+
+header .image{
+    position: relative;
+}
+
+header .image::before{
+    content: "•";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-8.5%);
+    font-size: 100rem;
+    font-weight: 400;
+    line-height: 25rem;
+    color: #1d4ed8;
+    opacity: 0.2;
+    z-index: -300;
+}
+
+header .image .img{
+    max-width: 600px;
+    margin: auto;
+
+}
+
+section .header{
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.features{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+
+.features .card {
+    background-color: #27272a;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+
+}
+
+
+.features .card:hover{
+    background-color: #323232;
+    border-color: #fff;
+}
+
+.features .card span{
+    display: inline-block;
+    background-color: #1e48af;
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.features .card h4{
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.features .card p{
+    color: #ccc;
+    margin-bottom: 1rem;
+
+}
+
+/* Join now button */
+.features .card a{
+    color: #fff;
+    transition: all 0.3s ease;
+
+}
+
+/* When hovering over the join now button */
+.features .card a:hover{
+    color: #1e40af;
+}
+
+
+
+
+
