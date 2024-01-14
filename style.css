@@ -33,7 +33,6 @@ nav{
     justify-content: space-between;
     gap: 2rem;
 
-
 }
 
 .nav-logo{
@@ -43,7 +42,7 @@ nav{
 .nav-links{
     list-style: none;
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: 3rem
 }
 
@@ -227,6 +226,147 @@ section .header{
 .features .card a:hover{
     color: #1e40af;
 }
+
+.sub-header{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: #ccc;
+}
+
+.pricing{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 1rem;
+}
+
+.pricing .card{
+    background-color: #4444fa0e;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    display: grid;
+    place-items: center;
+
+}
+
+.pricing .card .content{
+    flex:1;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
+.pricing .card .content7{
+    flex:1;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
+
+.card .content1{
+    max-width: 600px;
+    
+}
+
+.card .content2{
+    max-width: 80px;
+    
+}
+
+.card .content3{
+    max-width: 60px;
+    
+}
+
+
+.card .content4{
+    max-width: 60px;
+    
+}
+
+
+
+.card .content5{
+    max-width: 70px;
+    
+}
+
+
+.card .content6{
+    max-width: 80px;
+    
+}
+
+
+
+.card .content7{
+    max-width: 80px;
+    
+}
+
+
+.card .content8{
+    max-width: 80px;
+    
+}
+
+
+.card .content9{
+    max-width: 70px;
+    
+}
+
+
+.card .content10{
+    max-width: 70px;
+    
+}
+
+
+.card .content11{
+    max-width: 70px;
+    
+}
+
+
+.card .content12{
+    max-width: 30px;
+    
+}
+
+footer{
+    position: relative;
+    display: grid;
+    grid-template-columns: 400px repeat(3,1fr);
+    gap: 2rem;
+}
+
+footer .column .logo{
+    max-width: 100px;
+    margin-bottom: 2rem;
+}
+
+footer .column p{
+    color: #ccc;
+    margin-bottom: 2rem;
+}
+
+footer .column .socials{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+
 
 
 
